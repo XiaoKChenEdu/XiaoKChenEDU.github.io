@@ -7,6 +7,8 @@ date: 2024-01-17
 published: true
 labels:
   - Computer Science
+  - Questions
+  - Answers
 ---
 <img width="300px" class="rounded float-start pe-4" src="../img/essays/JS.jpg">
 
