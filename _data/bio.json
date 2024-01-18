@@ -17,7 +17,7 @@
     { "name": "PCB/Chip design" },
     { "name": "AI" },
     { "name": "Quantum Computing" },
-    { "name": "Robotics" },
+    { "name": "Cyber Security" },
     { "name": "3D Graphics/3D Modeling" }
   ],
   "skills": [
@@ -37,8 +37,7 @@
       "studyType": "B.S.",
       "startDate": "2021-Aug",
       "endDate": "Present",
-      "courses": [
-      ]
+      "courses": [ "Basic Circuit Analysis I", "Basic Circuit Analysis II", "Physical Electronics", "Discrete Math for Engineers", "Engineering Electromagnetic I", "Programming for Engineers (Python)", "Object Oriented Programming (C/C++)", "Introduction to Digital Design", "Introduction to Computer and Network Security", "Digital Systems and Computer Design" ]
     }
   ],
   "work": [
@@ -57,28 +56,15 @@
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "UH Manoa SCADA Lab",
+      "website": "https://uhm-scada-lab.github.io/",
+      "position": "Member",
+      "startDate": "2023-Aug",
+      "endDate": "2023-Dec",
+      "summary": "Design a mini town with three different SCADA ststem",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Worked on an closed loop water system",
+        "Work with Raspberry PI, design circuit board for connecting sensor/etc with the Raspberry PI"
       ]
     }
   ],
