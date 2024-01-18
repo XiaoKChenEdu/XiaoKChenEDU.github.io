@@ -8,6 +8,7 @@ published: true
 labels:
   - Computer Science
 ---
+<img width="300px" class="rounded float-start pe-4" src="../img/essays/JS.jpg">
 
 *What is Javascript?*
 
