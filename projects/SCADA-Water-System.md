@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/projects/SCADA-Water-System/Title.jpg
 title: "SCADA Water/Oil System"
 date: 2023
 published: true
