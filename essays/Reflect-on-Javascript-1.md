@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Reflect on Javascript 1"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2024-01-17
 published: true
 labels:
   - Computer Science

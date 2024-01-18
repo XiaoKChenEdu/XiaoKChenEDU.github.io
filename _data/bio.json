@@ -56,12 +56,19 @@
   ],
   "volunteer": [
     {
+      "organization": "Vertically Integrated Projects Aerospace Technologies",
+      "website": "",
+      "position": "Avionic",
+      "startDate": "2024-Aug",
+      "endDate": "Present"
+    },
+    {
       "organization": "UH Manoa SCADA Lab",
       "website": "https://uhm-scada-lab.github.io/",
       "position": "Member",
       "startDate": "2023-Aug",
       "endDate": "2023-Dec",
-      "summary": "Design a mini town with three different SCADA ststem",
+      "summary": "Design a mini town with three different SCADA system",
       "highlights": [
         "Worked on an closed loop water system",
         "Work with Raspberry PI, design circuit board for connecting sensor/etc with the Raspberry PI"
