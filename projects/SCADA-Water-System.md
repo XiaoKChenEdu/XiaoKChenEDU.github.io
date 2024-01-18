@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/projects/SCADA-Water-System/Title.jpg
+image: img/projects/SCADA-Water-System/Title.png
 title: "SCADA Water/Oil System"
 date: 2023
 published: true
