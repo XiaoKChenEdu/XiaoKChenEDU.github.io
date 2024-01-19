@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/projects/SCADA-Water-System/Title.png
+image: img/projects/ALU/Title.png
 title: "ALU"
 date: 2022
 published: true
