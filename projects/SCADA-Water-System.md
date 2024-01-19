@@ -6,6 +6,7 @@ title: "SCADA Water/Oil System"
 date: 2023
 published: true
 labels:
+  - Circuit Design
   - Raspberry PI
   - Python
 summary: "My team developed a closed loop water/oil system."
