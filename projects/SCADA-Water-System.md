@@ -12,7 +12,7 @@ labels:
 summary: "My team developed a closed loop water/oil system."
 ---
 
-<div class="text-left p-4">
+<div class="text-center p-4">
   <img width="300px" src="../img/projects/SCADA-Water-System/1.jpg" class="img-thumbnail" >
   <img width="300px" src="../img/projects/SCADA-Water-System/2.jpg" class="img-thumbnail" >
 </div>
