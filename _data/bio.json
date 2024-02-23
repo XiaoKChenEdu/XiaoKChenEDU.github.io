@@ -85,7 +85,11 @@
   ],
   "references": [
     {
-      "website": "../etc/Resume/Resume.pdf",
+      "txtContent": "Resume",
+      "attributes": {
+      "target": "_blank",
+      "href": "../etc/Resume/Resume.pdf"
+      }
     }
   ]
 }
