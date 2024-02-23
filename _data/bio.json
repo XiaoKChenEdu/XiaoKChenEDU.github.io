@@ -85,11 +85,7 @@
   ],
   "references": [
     {
-      "txtContent": "Resume",
-      "attributes": {
-      "target": "_blank",
-      "href": "../etc/Resume/Resume.pdf"
-      }
+      "name" : "https://xiaokchenedu.github.io/etc/Resume/Resume.pdf"
     }
   ]
 }
