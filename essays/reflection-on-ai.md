@@ -16,47 +16,61 @@ Artificial Intelligence (AI) has been a transformative force in various fields, 
 ### II. Personal Experience with AI:
 I have used AI in class this semester in the following areas:
 
-  1. Experience WODs e.g. E18 <br/>
-  I haven't utilized AI for the WOD experience because there were screencast videos available in case I encountered any difficulties.
-  <br/>
-  2. In-class Practice WODs <br/>
-  I have utilized AI for some In-class practice WODs, many just GitHub Copilot as it auto completes my code and save me some time
-  <br/>
-  3. In-class WODs <br/>
-   When I was still getting used to React.js, for one of the WODs. The task was to transform a standard HTML webpage into a React.js webpage. I remember seeking assistance from ChatGPT to automatically convert the HTML code to React.js. Another occasion when use ChatGPT for WOD was when I was running late for class. When I got to class, I asked ChatGPT to generate the entire solution for me. To my surprise, it worked out perfectly.
-   <br/>
-  4. Essays <br/>
-  I have certainly utilized AI to assist me with essay writing, primarily for grammar checks and rephrasing my sentences. Writing has always been a challenge for me, but using AI has enabled me to express myself more professionally.
-  <br/>
-  5. Final project <br/>
-  For my final project, I utilized Copilot for auto-completion assistance and engaged ChatGPT to generate aesthetically pleasing CSS styles, enhancing the overall presentation.
-  <br/>
-  6. Learning a concept / tutorial <br/>
-  I haven't utilized AI for learning concepts, as I tend to prefer watching YouTube videos or browsing through multiple pages on Google.
-  <br/>
-  7. Answering a question in class or in Discord <br/>
-  I have not answer a question in class or on discord.
-  <br/>
-  8. Asking or answering a smart-question <br/>
-  I have not ask nor answer a smart-question.
-  <br/>
-  9. Coding example e.g. “give an example of using Underscore .pluck” <br/>
-  I haven't asked AI for coding examples. Typically, I would search for coding examples on Google and review various pages to understand them. Although I do think asking ChatGPT or other AI systems seems quite useful, though there's a chance they might generate faulty code.
-  <br/>
-  10. Explaining code <br/>
-  I have utilized AI to assist in explaining code. In one of my previous classes, we dealt with the MIPS architecture, and I certainly didn't have any prior knowledge of MIPS Machine Language.
-  <br/>
-  11. Writing code <br/>
-  I have utilized AI to assist in writing code. As mentioned before, I use it to generate codes for WODs and on the Final Project.
-  <br/>
-  12. Documenting code <br/>
-  I have not use AI to document any codes, as I almost never document my code. I need to stop this bad habit and start documenting my code more.
-  <br/>
-  13. Quality assurance <br/>
-  I haven't used AI for quality assurance. In ICS 314, we rely on ESLint for maintaining code quality. In other classes, I tend to follow my own preferred code formatting style.
-  <br/>
-  14. Other uses in ICS 314 not listed above <br/>
-  Pretty much all have been listed here.
+  1. Experience WODs e.g. E18
+    
+    I haven't utilized AI for the WOD experience because there were screencast videos available in case I encountered any difficulties.
+
+  2. In-class Practice WODs
+
+    I have utilized AI for some In-class practice WODs, many just GitHub Copilot as it auto completes my code and save me some time
+
+  3. In-class WODs
+
+    When I was still getting used to React.js, for one of the WODs. The task was to transform a standard HTML webpage into a React.js webpage. I remember seeking assistance from ChatGPT to automatically convert the HTML code to React.js. Another occasion when use ChatGPT for WOD was when I was running late for class. When I got to class, I asked ChatGPT to generate the entire solution for me. To my surprise, it worked out perfectly.
+
+  4. Essays
+
+    I have certainly utilized AI to assist me with essay writing, primarily for grammar checks and rephrasing my sentences. Writing has always been a challenge for me, but using AI has enabled me to express myself more professionally.
+
+  5. Final project
+
+    For my final project, I utilized Copilot for auto-completion assistance and engaged ChatGPT to generate aesthetically pleasing CSS styles, enhancing the overall presentation.
+
+  6. Learning a concept / tutorial
+
+    I haven't utilized AI for learning concepts, as I tend to prefer watching YouTube videos or browsing through multiple pages on Google.
+
+  7. Answering a question in class or in Discord
+
+    I have not answer a question in class or on discord.
+
+  8. Asking or answering a smart-question
+  
+    I have not ask nor answer a smart-question.
+
+  9. Coding example e.g. “give an example of using Underscore .pluck”
+  
+    I haven't asked AI for coding examples. Typically, I would search for coding examples on Google and review various pages to understand them. Although I do think asking ChatGPT or other AI systems seems quite useful, though there's a chance they might generate faulty code.
+
+  10. Explaining code
+  
+    I have utilized AI to assist in explaining code. In one of my previous classes, we dealt with the MIPS architecture, and I certainly didn't have any prior knowledge of MIPS Machine Language.
+
+  11. Writing code
+
+    I have utilized AI to assist in writing code. As mentioned before, I use it to generate codes for WODs and on the Final Project.
+
+  12. Documenting code
+
+    I have not use AI to document any codes, as I almost never document my code. I need to stop this bad habit and start documenting my code more.
+
+  13. Quality assurance
+
+    I haven't used AI for quality assurance. In ICS 314, we rely on ESLint for maintaining code quality. In other classes, I tend to follow my own preferred code formatting style.
+
+  14. Other uses in ICS 314 not listed above
+
+    Pretty much all have been listed here.
 
 ### III. Impact on Learning and Understanding:
 Incorporation of AI has definly influenced my learning experience. For instance, AI has simplified the process of understanding complex concepts, such as the MIPS Machine Language. With AI, I was able to comprehend each machine instruction line by line, eliminating the need to source the internet for explanations. This not only made learning more efficient but also less time-consuming. However, it’s important to strike a balance and not become overly dependent on AI. While AI can be a powerful tool for learning, over-reliance could potentially hinder the development of critical thinking and problem-solving skills. 
