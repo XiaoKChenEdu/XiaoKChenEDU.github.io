@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/projects/Shop-Manoa/uhlogo.png
+image: img/projects/Shop-Manoa/uhLogo.png
 title: "Shop-Manoa"
 date: 2024
 published: true
