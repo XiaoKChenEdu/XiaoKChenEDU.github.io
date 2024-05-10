@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Mastering Coding Standards in Software Development
+title: "Software Engineering Essentials: Configuration Management and Coding Standards"
 # All dates must be YYYY-MM-DD format!
 date: 2024-05-09
 published: true
@@ -21,7 +21,3 @@ At its core, configuration management is about overseeing and controlling modifi
 ## Coding standards
 
 Coding standards are vital for readability, maintainability, error reduction, and collaboration. A consistent coding style enhances readability and understanding, especially in multi-developer projects. It also simplifies maintenance and updates. Coding standards often prevent common programming errors, such as a rule requiring the use of braces with control structures to avoid errors when adding additional lines. When everyone adheres to the same coding standard, it facilitates understanding and contribution to someone else’s code. We’ve chosen ESLint to enforce the Airbnb JavaScript standard. Its integration with IntelliJ provides immediate feedback on code quality and standard compliance. Configuring ESLint within IntelliJ automatically detects rule violations, streamlining the development process. While it can be frustrating to adjust to a specific coding style, such as aligning comments for readability. Having a normalized coding standards ensures consistency, making it easier for others to understand the code, as the same style is expected throughout. Despite the initial frustration, the benefits of standardization in facilitating understanding and collaboration are recognized.
-
-
-
-
