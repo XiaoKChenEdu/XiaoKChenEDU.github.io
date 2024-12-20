@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: ""
+title: "Lessons Learned: Navigating Team Dynamics in Software Development"
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-19
 published: true
