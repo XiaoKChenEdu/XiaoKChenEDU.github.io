@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.17)  22 FEB 2024 21:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.17)  21 NOV 2024 19:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/chen1/Tmp/Resume/Resume.tex
-(c:/Users/chen1/Tmp/Resume/Resume.tex
+**"x:/Documents/Programming/GitHub/ForSchool ( XiaoKChenEdu )/XiaoKChenEDU.github.io/etc/Resume/Resume.tex"
+(x:/Documents/Programming/GitHub/ForSchool ( XiaoKChenEdu )/XiaoKChenEDU.github.io/etc/Resume/Resume.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-03-30> (C:\Users\chen1\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -320,20 +320,20 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Resume.out' has not changed.
-(rerunfilecheck)             Checksum: F517EA52807136ACC8857ECDDA0A751D;744.
+(rerunfilecheck)             Checksum: 54AF61B47547CC6A8535FA152FC7F5E7;587.
  ) 
 Here is how much of TeX's memory you used:
- 11940 strings out of 476331
- 190152 string characters out of 5787765
- 1878660 words of memory out of 5000000
- 32226 multiletter control sequences out of 15000+600000
+ 11938 strings out of 476331
+ 190741 string characters out of 5787765
+ 1879660 words of memory out of 5000000
+ 32225 multiletter control sequences out of 15000+600000
  518597 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,404b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,473b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/chen1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/chen1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/chen1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/chen1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/chen1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/chen1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/chen1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/chen1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Resume.pdf (1 page, 122241 bytes).
+Output written on Resume.pdf (1 page, 121675 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

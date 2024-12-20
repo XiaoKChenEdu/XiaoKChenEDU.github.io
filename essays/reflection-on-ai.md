@@ -4,7 +4,7 @@ type: essay
 title: "Artificial Intelligence in Software Engineering Education: A Personal Journey and Reflection"
 # All dates must be YYYY-MM-DD format!
 date: 2024-05-05
-published: true
+published: false
 labels:
   - Artificial Intelligence
 ---
