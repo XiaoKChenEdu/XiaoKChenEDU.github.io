@@ -2,121 +2,62 @@
 layout: project
 type: project
 image: img/projects/ALU/Title.png
-title: "ALU"
+title: "4-Bit Arithmetic Logic Unit (ALU)"
 date: 2022
 published: true
 labels:
-  - Circuit Design
-  - Verilog
-summary: "Designing a combinational digital circuit with 8 operations, each operations are 4 bit."
+  - Digital Circuit Design
+  - Verilog HDL
+  - Combinational Logic
+  - Computer Architecture
+summary: "Design and implementation of a 4-bit ALU supporting 8 arithmetic and logical operations using Verilog and circuit simulation."
 ---
 
 <div class="text-center p-4">
   <img width="400px" src="../img/projects/ALU/1.jpg" class="img-thumbnail" >
+  <p class="fst-italic">Complete ALU circuit implementation in Falstad simulator</p>
 </div>
 
-In this project, my main objective was to design a four-bit ALU circuit capable of performing eight distinct operations, including addition, subtraction, multiplication, division, and various bitwise operations. I individually implemented each of these eight operations on Falstad, a circuit simulator applet, to create a subcircuit design. This design was subsequently used to construct a four-bit version of the circuit, as depicted in the image below.
+## Project Overview
+This project involved designing and implementing a 4-bit Arithmetic Logic Unit (ALU) capable of performing eight distinct operations. The ALU supports fundamental computer arithmetic including addition, subtraction, multiplication, division, and bitwise operations. The design process involved both hardware simulation using Falstad circuit simulator and Hardware Description Language (HDL) implementation using Verilog.
+
+## Design Process
+Each operation was first prototyped individually in Falstad to verify the logic and ensure correct functionality. The subcircuits were then combined using multiplexers to create the complete ALU. The design follows these specifications:
+
+- Input width: 4 bits (A, B inputs)
+- Operation selection: 3 bits (allowing 8 operations)
+- Carry in support (XIN)
+- Status flags: Zero (Z), Overflow (V), Carry out (C)
 
 <div class="text-center p-4">
   <img width="400px" src="../img/projects/ALU/2.jpg" class="img-thumbnail" >
+  <p class="fst-italic">4-bit adder subcircuit implementation</p>
 </div>
 
-The image above depicts one of the eight distinct circuits that have been assembled. Specifically, the displayed circuit performs the adder operation of the Arithmetic Logic Unit (ALU). After constructing eight separate subcircuits, I integrated them using a multiplexer to form the ALU. At the same time, I also implement a version of the ALU in verilog.
+## Supported Operations
+The ALU implements the following operations selected by the 3-bit control signal (S):
+- 000: Addition (A + B + XIN)
+- 001: Subtraction (B - A + XIN)
+- 010: Subtraction (A - B + XIN)
+- 011: Multiplication by 2 (A × 2)
+- 100: Division by 2 (A ÷ 2)
+- 101: Multiplication (A × B)
+- 110: XOR (A ⊕ B)
+- 111: Compare (A < B)
 
 <div class="text-center p-4">
   <img width="400px" src="../img/projects/ALU/3.jpg" class="img-thumbnail" >
+  <p class="fst-italic">Complete ALU integration with multiplexer control</p>
 </div>
 
-Here is the code that illustrates the four bit ALU in verilog:
+## Verilog Implementation
+The ALU was implemented in Verilog HDL, incorporating all operations and status flags. Key features include:
 
 ```v
-///// FOURBITALU /////
-
-
+// filepath: module implementation
 module fourBitALU ( XIN, A, B ,S, Z, V, C, F ) ;
-
-  input  wire         XIN     ;
-  input  wire [ 3:0 ] A, B    ;
-  input  wire [ 2:0 ] S       ;
-  output wire         Z, V, C ;
-  output wire [ 3:0 ] F       ;
-
-  reg [ 7:0 ] temp_F             ;
-  reg         overFlow, carryOut ;
-
-  always @ ( S )
-    begin
-
-      carryOut = 1'b0 ;
-
-      case ( S )
-
-        3'b000   : 
-          
-          begin
-          
-            temp_F   = A + B + XIN ;
-            carryOut = temp_F[ 4 ] ;
-
-          end
-        
-        3'b001  : 
-          
-          begin
-
-            temp_F   = ( B + XIN ) - A ;
-            carryOut = temp_F[ 4 ]     ;
-
-          end
-
-        3'b010  : 
-
-          begin
-        
-            temp_F   = ( A + XIN ) - B ;
-            carryOut = temp_F[ 4 ]     ;
-
-          end
-
-        3'b011  : temp_F = 4'b0010 * A     ;
-        3'b100  : temp_F = A / 4'b0010     ;
-        3'b101  : temp_F = A * B           ;
-        3'b110  : temp_F = A ^ B           ;
-        3'b111  :
-        
-          begin
-
-            if ( A < B ) begin
-
-              temp_F = 8'b00001111 ;
-
-            end else begin
-
-              temp_F = 8'b00000000 ;
-
-            end
-
-          end
-
-        default : temp_F = 8'b00000000     ;
-
-      endcase
-
-    end
-
-    assign F = temp_F ;
-    assign Z = ( temp_F == 8'b00000000 ) ? 1'b1 :
-               1'b0 ;
-    assign V = ( temp_F[ 4 ] == 1'b1 ) ? 1'b1 :
-               ( temp_F[ 5 ] == 1'b1 ) ? 1'b1 :
-               ( temp_F[ 6 ] == 1'b1 ) ? 1'b1 :
-               ( temp_F[ 7 ] == 1'b1 ) ? 1'b1 :
-               1'b0 ;
-    assign C = carryOut ;
-
-
+  // ...existing code...
 endmodule
-
-
-///// FOURBITALU /////
 ```
+
+The design demonstrates fundamental concepts in digital logic design and computer architecture, providing practical experience with both hardware simulation and HDL-based design methodologies.
