@@ -26,66 +26,28 @@ You can explore the project through these links:
 - [Source Code](https://github.com/shop-manoa/shop-manoa)
 
 ## System Architecture
-```mermaid
-graph TD
-    A[Client Browser] -->|HTTP/WebSocket| B[Meteor Server]
-    B -->|MongoDB Operations| C[(MongoDB Database)]
-    B -->|Authentication| D[User Management]
-    B -->|File Storage| E[Image Storage]
-    
-    subgraph Frontend
-    F[React Components]
-    G[Bootstrap UI]
-    H[User Interface]
-    end
-    
-    F -->|Renders| H
-    G -->|Styles| H
-    H -->|User Input| A
-```
+<div class="text-center p-4">
+  <img width="700px" src="../img/projects/Shop-Manoa/1.png" class="img-thumbnail" >
+</div>
+<div class="text-center">
+  <em>Figure 1: Shop-Manoa System Architecture Diagram</em>
+</div>
 
-## User Flow Diagram
-```mermaid
-flowchart LR
-    A[Start] --> B{Logged In?}
-    B -->|No| C[Sign Up/Login]
-    B -->|Yes| D[Browse Items]
-    D --> E[View Item]
-    E --> F{Buy or Sell?}
-    F -->|Buy| G[Contact Seller]
-    F -->|Sell| H[Create Listing]
-    H --> I[Manage Items]
-    G --> J[Complete Transaction]
-    I --> K[End]
-    J --> K
-```
+## User Flow
+<div class="text-center p-4">
+  <img width="700px" src="../img/projects/Shop-Manoa/2.png" class="img-thumbnail" >
+</div>
+<div class="text-center">
+  <em>Figure 2: User Flow Diagram showing the application's navigation paths</em>
+</div>
 
 ## Component Structure
-```mermaid
-classDiagram
-    class App {
-        +Router
-        +NavBar
-        +Footer
-    }
-    class UserProfile {
-        +UserInfo
-        +ListingsManager
-    }
-    class ItemList {
-        +SearchBar
-        +FilterSystem
-        +ItemCards
-    }
-    class Authentication {
-        +SignUp
-        +SignIn
-        +SignOut
-    }
-    App --> UserProfile
-    App --> ItemList
-    App --> Authentication
-```
+<div class="text-center p-4">
+  <img width="700px" src="../img/projects/Shop-Manoa/3.png" class="img-thumbnail" >
+</div>
+<div class="text-center">
+  <em>Figure 3: React Component Structure Diagram</em>
+</div>
 
 ## Features
 - User authentication and profile management
