@@ -7,9 +7,9 @@ date: 2023
 published: true
 labels:
   - Circuit Design
-  - Raspberry PI
+  - Raspberry Pi
   - Python
-summary: "My team developed a closed loop water/oil system."
+summary: "Designed and implemented an automated water circulation system controlled by Raspberry Pi."
 ---
 
 <div class="text-center p-4">
@@ -17,15 +17,15 @@ summary: "My team developed a closed loop water/oil system."
   <img width="300px" src="../img/projects/SCADA-Water-System/2.jpg" class="img-thumbnail" >
 </div>
 
-The SCADA Water/Oil system, a key component of a mini town design, was developed to illustrate the concept of a closed-loop system. This system includes two separate tanks, although only one is filled at a time. The flow of water is controlled by a Raspberry Pi. These two tanks are strategically positioned on opposite sides of the mini tower and are interconnected by a tube.
+As part of a miniature urban infrastructure project, I developed a SCADA (Supervisory Control and Data Acquisition) Water/Oil system that demonstrates automated fluid management. The system consists of two reservoirs connected via a transfer tube, with only one tank active at any given time. A Raspberry Pi serves as the central control unit, managing the fluid circulation between the tanks positioned at opposite ends of the structure.
 
 <div class="text-center p-4">
   <img width="400px" src="../img/projects/SCADA-Water-System/circuit2.png" class="img-thumbnail" >
 </div>
 
-In this project, my primary responsibilities were the circuit design and programming of the Raspberry Pi. As depicted in the image above, I wired two water level sensors into the Raspberry Pi, enabling it to control which pump should be activated. Each tank is equipped with a pump, and an LED indicator is present to show which pump is currently in operation.
+My contribution focused on both the electronic circuit design and Raspberry Pi programming. The system employs dual water level sensors interfaced with the Raspberry Pi to determine optimal pump activation timing. Each reservoir is equipped with a dedicated pump and LED status indicator for real-time operational feedback.
 
-Here is some code that illustrates how the Raspberry controls the relay which than controls the pumps:
+The following Python code demonstrates the control logic for the pump relay system:
 
 ```py
 import RPi.GPIO as GPIO

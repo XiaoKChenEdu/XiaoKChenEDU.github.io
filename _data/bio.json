@@ -6,11 +6,11 @@
     "email": "xiaokang@hawaii.edu",
     "phone": "808-389-5887",
     "website": "https://xiaokchenedu.github.io",
-    "summary": "I am studying for a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii. I expect to graduate in Fall, 2024.",
+    "summary": "I am studying for a M.S. in Electrical and Computer Engineering in the College of Engineering at the University of Hawaii. I expect to graduate in Fall, 2025.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "XiaoKChenEDU", "url": "https://github.com/XiaoKChenEdu" },
-      { "network": "linkedin", "username": "Xiaokang Chen", "url": "https://www.linkedin.com/in/xiaokang-chen-72225a19a/" },
+      { "network": "linkedin", "username": "Xiaokang Chen", "url": "https://www.linkedin.com/in/xiaokang-chen-72225a19a/" }
     ]
   },
   "interests": [
@@ -33,14 +33,34 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Engineering (expected Spring, 2025)",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "M.S.",
+      "startDate": "2024-Aug",
+      "endDate": "Present",
+      "courses": []
+    },
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Engineering",
       "studyType": "B.S.",
       "startDate": "2021-Aug",
-      "endDate": "Present",
-      "courses": [ "Basic Circuit Analysis I", "Basic Circuit Analysis II", "Physical Electronics", "Discrete Math for Engineers", "Engineering Electromagnetic I", "Programming for Engineers (Python)", "Object Oriented Programming (C/C++)", "Introduction to Digital Design", "Introduction to Computer and Network Security", "Digital Systems and Computer Design" ]
+      "endDate": "2024-Dec",
+      "courses": []
     }
   ],
   "work": [
+    {
+      "company": "Department of Electrical and Computer Engineering",
+      "position": "Teaching Assistant",
+      "website": "",
+      "startDate": "2025-Jan",
+      "endDate": "Present",
+      "summary": "Teaching assistant for ECE 160 and ECE 367L",
+      "highlights": [
+        "Help students with their lab work",
+        "Grade students' lab work"
+      ]
+    },
     {
       "company": "Office of Naval Research",
       "position": "Cyber Security Training",
@@ -56,11 +76,38 @@
   ],
   "volunteer": [
     {
+      "organization": "EM Medical Device",
+      "website": "",
+      "position": "Member",
+      "startDate": "2025-Jan",
+      "endDate": "Present",
+      "summary": "An EM device that can be used to detect lung water level in the body",
+      "highlights": [
+        "Working on creating 3D model of a huamn lung and heart for simulation"
+      ]
+    },
+    {
+      "organization": "Antenna Arrary Beamforming",
+      "website": "https://github.com/XiaoKChenEdu/MICX_31XX",
+      "position": "Member",
+      "startDate": "2024-Aug",
+      "endDate": "Present",
+      "summary": "7-element antenna array receiver designed for beamforming, which adjusts the phase of received signals to enhance directional reception and improve the accuracy of determining the source element's location.",
+      "highlights": [
+        "Worked on the software part of the project"
+      ]
+    },
+    {
       "organization": "Vertically Integrated Projects Aerospace Technologies",
       "website": "",
       "position": "Avionic",
-      "startDate": "2024-Aug",
-      "endDate": "Present"
+      "startDate": "2024-Jan",
+      "endDate": "2024-May",
+      "summary": "Assisting in the design of the avionic system for a 1U CubeSat named Ke'Ao, with the primary objective of capturing an image of the Hawaiian Islands.",
+      "highlights": [
+        "Worked on the design of the power system",
+        "Solar Panel testing"
+      ]
     },
     {
       "organization": "UH Manoa SCADA Lab",

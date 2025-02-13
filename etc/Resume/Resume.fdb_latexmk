@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1732251719 "x:/Documents/Programming/GitHub/ForSchool ( XiaoKChenEdu )/XiaoKChenEDU.github.io/etc/Resume/Resume.tex" "Resume.pdf" "Resume" 1732251721 0
-  "C:/Users/chen1/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1695185282 174272 4b41fcb1f83ee24351ac30b03de8e824 ""
+["pdflatex"] 1739431538 "x:/Documents/Programming/GitHub/ForSchool ( XiaoKChenEdu )/XiaoKChenEDU.github.io/etc/Resume/Resume.tex" "Resume.pdf" "Resume" 1739431539 0
+  "C:/Users/chen1/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1733965957 175870 78a9ad02d1fc45234d2a0c73381ba93d ""
   "C:/Users/chen1/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1681727552 23178960 79b1609f96bb5989f63d5a51b2aa0a2e ""
   "C:/Users/chen1/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/chen1/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -91,10 +91,10 @@
   "C:/Users/chen1/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1667242266 7147 be6981d9f5d866a5634048c4a11814a9 ""
   "C:/Users/chen1/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1667242266 7392 f19cdc68ae9f1190dbd54eee6d29fb7c ""
   "C:/Users/chen1/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Resume.aux" 1732251721 1191 70bf2588364e49ad6ddfdd5ed11de0d0 "pdflatex"
-  "Resume.out" 1732251721 587 54af61b47547cc6a8535fa152fc7f5e7 "pdflatex"
-  "Resume.tex" 1732251718 10598 017698abdce756f5c51d31c8b97afb4e ""
-  "x:/Documents/Programming/GitHub/ForSchool ( XiaoKChenEdu )/XiaoKChenEDU.github.io/etc/Resume/Resume.tex" 1732251718 10598 017698abdce756f5c51d31c8b97afb4e ""
+  "Resume.aux" 1739431539 1075 c8881bca3959a9eb4c9251b102afbc70 "pdflatex"
+  "Resume.out" 1739431539 446 6d4fb3b621123ef46fac6e9d6a19fe16 "pdflatex"
+  "Resume.tex" 1739431537 12228 551fdc287da66ebfbb6f118fdf483e20 ""
+  "x:/Documents/Programming/GitHub/ForSchool ( XiaoKChenEdu )/XiaoKChenEDU.github.io/etc/Resume/Resume.tex" 1739431537 12228 551fdc287da66ebfbb6f118fdf483e20 ""
   (generated)
   "Resume.aux"
   "Resume.log"
